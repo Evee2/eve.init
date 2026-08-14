@@ -47,9 +47,9 @@ function Home() {
               Building practical, secure web products - end to end.
             </h1>
             <p className="mt-6 max-w-[62ch] text-base leading-7 text-muted">
-              I'm Evelyn Victor, a web developer based in Phoenix, Arizona. I build responsive business sites,
-              rebuild fragile ones into something secure and maintainable, and I'm growing into AWS cloud
-              architecture one deployed project at a time.
+              I'm Evelyn Victor, a web developer. I build responsive business sites, rebuild fragile ones into
+              something secure and maintainable, and I'm growing into AWS cloud architecture one deployed
+              project at a time.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <a href="#projects" className="button-primary">View my work</a>
@@ -91,9 +91,9 @@ function Home() {
         </div>
         <div className="card-surface rounded-2xl p-6 sm:p-8">
           <p className="text-sm leading-7 text-muted">
-            I'm Evelyn Victor, a web developer based in Phoenix, Arizona. I build responsive business sites,
-            rebuild fragile ones into something secure and maintainable, and I'm growing into AWS cloud
-            architecture one deployed project at a time.
+            I'm Evelyn Victor, a web developer. I build responsive business sites, rebuild fragile ones into
+            something secure and maintainable, and I'm growing into AWS cloud architecture one deployed
+            project at a time.
           </p>
           <p className="mt-4 text-sm leading-7 text-muted">
             My work spans small business sites - beauty brands, cleaning services, restaurants - through to

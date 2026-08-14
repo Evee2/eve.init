@@ -29,7 +29,6 @@ function Resume() {
           <h1 className="font-display text-3xl text-ink sm:text-4xl">Evelyn Victor</h1>
           <p className="mt-1 font-semibold text-warm">Web Developer | Rebranding Support | Emerging Cloud Practitioner</p>
           <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted">
-            <span>Phoenix, Arizona</span>
             <span>+1 602 338 8497</span>
             <span>victoreve378@gmail.com</span>
             <span>linkedin.com/in/eve-victor-b157aa200</span>
