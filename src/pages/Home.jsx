@@ -66,14 +66,14 @@ function Home() {
           </div>
 
           <div className="relative grid gap-5">
-            <div className="card-surface mx-auto w-full max-w-[420px] overflow-hidden rounded-[2rem] lg:ml-auto">
+            <div className="card-surface mx-auto w-2/3 max-w-[220px] overflow-hidden rounded-[2rem] sm:w-full sm:max-w-[420px] lg:ml-auto">
               <img
                 src="/media/portrait.jpg"
                 alt="Portrait of Evelyn Victor"
-                className="aspect-[4/5] h-full min-h-[280px] w-full object-cover sm:min-h-[360px]"
+                className="aspect-[4/5] h-full min-h-0 w-full object-cover sm:min-h-[360px]"
               />
             </div>
-            <div className="card-surface mx-auto mt-2 w-full max-w-[320px] rounded-[1.5rem] p-5 lg:ml-4 lg:-mt-16">
+            <div className="card-surface mx-auto mt-2 w-full max-w-[260px] rounded-[1.5rem] p-5 sm:max-w-[320px] lg:ml-4 lg:-mt-16">
               <p className="mb-1 text-xs font-semibold uppercase tracking-[0.12em] text-accent">Currently</p>
               <p className="font-display text-xl">Building on AWS</p>
               <p className="mt-2 text-sm leading-6 text-muted">
