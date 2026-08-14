@@ -20,11 +20,12 @@ export const projects = [
     name: 'InternNET',
     type: 'Full-stack rebuild',
     description:
-      'Beginner-friendly internship and mentorship platform, rebuilt from scratch in React with Supabase auth and row-level security, and an AWS Lambda backend for the assistant.',
-    tags: ['React', 'Supabase', 'RLS', 'AWS Lambda'],
+      'Beginner-friendly internship and mentorship platform, rebuilt from scratch in React with Supabase auth, row-level security, and a full applications/dashboard flow.',
+    tags: ['React', 'Supabase', 'RLS'],
     image: null,
     liveUrl: null,
-    status: 'In progress',
+    sourceUrl: 'https://github.com/Evee2/internNET',
+    status: 'In production',
   },
   {
     slug: 'queentee',

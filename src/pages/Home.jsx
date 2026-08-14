@@ -28,7 +28,7 @@ const focusAreas = [
 ];
 
 const roadmap = [
-  { step: '01', title: 'Deploy the InternNET assistant', copy: 'Wire the AI assistant Lambda to a live OpenAI key and API Gateway route.' },
+  { step: '01', title: 'Rebuild Myke Visuals', copy: 'Apply the same audit-first, secure rebuild approach used on Localis Prod and InternNET.' },
   { step: '02', title: 'Document architecture decisions', copy: 'Write up the tradeoffs behind each AWS deployment as case studies.' },
   { step: '03', title: 'Take on more client rebuilds', copy: 'Keep applying the same audit-first, security-conscious approach to new projects.' },
   { step: '04', title: 'Deepen AWS knowledge', copy: 'Structured study alongside real deployments, not just tutorials.' },
