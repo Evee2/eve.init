@@ -51,11 +51,11 @@ function Home() {
               something secure and maintainable, and I'm growing into AWS cloud architecture one deployed
               project at a time.
             </p>
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#projects" className="button-primary">View my work</a>
-              <Link to="/resume" className="button-secondary">View resume</Link>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:gap-4">
+              <a href="#projects" className="button-primary w-full sm:w-auto">View my work</a>
+              <Link to="/resume" className="button-secondary w-full sm:w-auto">View resume</Link>
             </div>
-            <ul className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+            <ul className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
               {metrics.map((metric) => (
                 <li key={metric.label} className="card-surface rounded-2xl p-5">
                   <strong className="block text-lg text-ink">{metric.value}</strong>
@@ -66,14 +66,14 @@ function Home() {
           </div>
 
           <div className="relative grid gap-5">
-            <div className="card-surface ml-auto max-w-[420px] overflow-hidden rounded-[2rem]">
+            <div className="card-surface mx-auto w-full max-w-[420px] overflow-hidden rounded-[2rem] lg:ml-auto">
               <img
                 src="/media/portrait.jpg"
                 alt="Portrait of Evelyn Victor"
-                className="aspect-[4/5] h-full min-h-[360px] w-full object-cover"
+                className="aspect-[4/5] h-full min-h-[280px] w-full object-cover sm:min-h-[360px]"
               />
             </div>
-            <div className="card-surface ml-4 -mt-16 max-w-[320px] rounded-[1.5rem] p-5">
+            <div className="card-surface mx-auto mt-2 w-full max-w-[320px] rounded-[1.5rem] p-5 lg:ml-4 lg:-mt-16">
               <p className="mb-1 text-xs font-semibold uppercase tracking-[0.12em] text-accent">Currently</p>
               <p className="font-display text-xl">Building on AWS</p>
               <p className="mt-2 text-sm leading-6 text-muted">
