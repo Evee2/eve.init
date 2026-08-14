@@ -36,16 +36,42 @@ const roadmap = [
 
 const collabTags = ['React', 'Node.js', 'AWS Lambda', 'Supabase', 'DynamoDB', 'Tailwind CSS'];
 
+function HeroPortrait({ className = '' }) {
+  return (
+    <div className={`relative grid gap-3 sm:gap-5 lg:max-w-[420px] ${className}`}>
+      <div className="card-surface w-full overflow-hidden rounded-xl sm:rounded-[2rem]">
+        <img
+          src="/media/portrait.jpg"
+          alt="Portrait of Evelyn Victor"
+          className="aspect-[4/5] w-full object-cover"
+        />
+      </div>
+      <div className="card-surface w-full rounded-lg p-2.5 sm:rounded-[1.5rem] sm:p-5 lg:-mt-16 lg:max-w-[320px]">
+        <p className="mb-1 text-[9px] font-semibold uppercase tracking-[0.1em] text-accent sm:text-xs sm:tracking-[0.12em]">Currently</p>
+        <p className="font-display text-xs leading-tight sm:text-xl">Building on AWS</p>
+        <p className="mt-1 text-[10px] leading-snug text-muted sm:mt-2 sm:text-sm sm:leading-6">
+          Documenting architecture decisions and deployment tradeoffs as I go.
+        </p>
+      </div>
+    </div>
+  );
+}
+
 function Home() {
   return (
     <>
       <section className="shell section-space">
-        <div className="grid grid-cols-[1fr_112px] items-start gap-4 sm:grid-cols-[1fr_240px] sm:gap-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-9">
+        <div className="lg:grid lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:gap-9">
           <div>
-            <p className="eyebrow">Web development - cloud in progress</p>
-            <h1 className="max-w-[17ch] font-display text-4xl leading-tight sm:text-6xl">
-              Building practical, secure web products - end to end.
-            </h1>
+            <div className="grid grid-cols-[1fr_112px] items-start gap-4 sm:grid-cols-[1fr_240px] sm:gap-6 lg:block">
+              <div>
+                <p className="eyebrow">Web development - cloud in progress</p>
+                <h1 className="max-w-[17ch] font-display text-4xl leading-tight sm:text-6xl">
+                  Building practical, secure web products - end to end.
+                </h1>
+              </div>
+              <HeroPortrait className="lg:hidden" />
+            </div>
             <p className="mt-6 max-w-[62ch] text-base leading-7 text-muted">
               I'm Evelyn Victor, a web developer. I build responsive business sites, rebuild fragile ones into
               something secure and maintainable, and I'm growing into AWS cloud architecture one deployed
@@ -65,22 +91,7 @@ function Home() {
             </ul>
           </div>
 
-          <div className="relative grid gap-3 sm:gap-5 lg:max-w-[420px] lg:ml-auto">
-            <div className="card-surface w-full overflow-hidden rounded-xl sm:rounded-[2rem]">
-              <img
-                src="/media/portrait.jpg"
-                alt="Portrait of Evelyn Victor"
-                className="aspect-[4/5] w-full object-cover"
-              />
-            </div>
-            <div className="card-surface w-full rounded-lg p-2.5 sm:rounded-[1.5rem] sm:p-5 lg:-mt-16 lg:max-w-[320px]">
-              <p className="mb-1 text-[9px] font-semibold uppercase tracking-[0.1em] text-accent sm:text-xs sm:tracking-[0.12em]">Currently</p>
-              <p className="font-display text-xs leading-tight sm:text-xl">Building on AWS</p>
-              <p className="mt-1 text-[10px] leading-snug text-muted sm:mt-2 sm:text-sm sm:leading-6">
-                Documenting architecture decisions and deployment tradeoffs as I go.
-              </p>
-            </div>
-          </div>
+          <HeroPortrait className="ml-auto hidden lg:grid" />
         </div>
       </section>
 
