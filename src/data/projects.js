@@ -12,6 +12,7 @@ export const projects = [
     tags: ['AWS Lambda', 'API Gateway', 'DynamoDB', 'Custom auth'],
     image: null,
     liveUrl: null,
+    sourceUrl: 'https://github.com/Evee2/localis-prod',
     status: 'In production',
   },
   {
@@ -44,7 +45,7 @@ export const projects = [
       'Green cleaning services site: rebranded palette to match the real logo, corrected service details, and added Spanish-language pages.',
     tags: ['HTML/CSS/JS', 'Bilingual'],
     image: '/media/bio-janitorial.png',
-    liveUrl: null,
+    liveUrl: 'https://bio-rebuild.netlify.app/',
     status: 'Live',
   },
   {

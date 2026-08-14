@@ -1,5 +1,5 @@
 function ProjectCard({ project }) {
-  const { name, type, description, tags, image, liveUrl, status } = project;
+  const { name, type, description, tags, image, liveUrl, sourceUrl, status } = project;
 
   if (!image) {
     return (
@@ -19,7 +19,14 @@ function ProjectCard({ project }) {
               </span>
             ))}
           </div>
-          <p className="mt-4 text-xs font-semibold uppercase tracking-[0.12em] text-accent">{status}</p>
+          <div className="mt-4 flex items-center justify-between">
+            <p className="text-xs font-semibold uppercase tracking-[0.12em] text-accent">{status}</p>
+            {sourceUrl && (
+              <a href={sourceUrl} target="_blank" rel="noreferrer" className="text-sm font-semibold text-warm hover:underline">
+                View code
+              </a>
+            )}
+          </div>
         </div>
       </article>
     );
