@@ -87,24 +87,26 @@ function Home() {
       <section id="about" className="shell section-space">
         <div className="mb-8 max-w-[24ch]">
           <p className="eyebrow mb-2">About</p>
-          <h2 className="font-display text-3xl sm:text-4xl">Client-focused, detail-first.</h2>
+          <h2 className="font-display text-3xl sm:text-4xl">About me</h2>
         </div>
-        <div className="grid gap-5 md:grid-cols-2">
-          <div className="card-surface rounded-2xl p-6">
-            <p className="text-sm leading-7 text-muted">
-              I work with clients who need a site that actually reflects their business - correct information,
-              a real brand identity, and a build that doesn't fall apart under real use. Recent work has
-              included auditing existing sites for security gaps before touching a single line of new code,
-              then rebuilding the parts that needed it: authentication, databases, and deployment.
-            </p>
-          </div>
-          <div className="card-surface rounded-2xl p-6">
-            <p className="text-sm leading-7 text-muted">
-              Alongside client work, I'm building hands-on AWS experience - deploying real infrastructure
-              (Lambda, API Gateway, DynamoDB, S3, CloudFront) rather than just studying it, and using
-              AI-assisted workflows to move faster through research, content, and iteration.
-            </p>
-          </div>
+        <div className="card-surface rounded-2xl p-6 sm:p-8">
+          <p className="text-sm leading-7 text-muted">
+            I'm Evelyn Victor, a web developer based in Phoenix, Arizona. I build responsive business sites,
+            rebuild fragile ones into something secure and maintainable, and I'm growing into AWS cloud
+            architecture one deployed project at a time.
+          </p>
+          <p className="mt-4 text-sm leading-7 text-muted">
+            My work spans small business sites - beauty brands, cleaning services, restaurants - through to
+            full-stack rebuilds with real authentication, secured databases, and production AWS
+            infrastructure. Each project starts the same way: an audit first, so I understand what's actually
+            there before I change anything.
+          </p>
+          <p className="mt-4 text-sm leading-7 text-muted">
+            I care about the parts that don't show up in a screenshot - whether a login actually resists
+            tampering, whether a database is locked down the way it should be, whether the site still holds
+            up after I've moved on. Technical soundness and a clean user experience aren't separate goals to
+            me; the best work does both at once.
+          </p>
         </div>
 
         <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
