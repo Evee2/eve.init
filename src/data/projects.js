@@ -32,8 +32,8 @@ export const projects = [
     name: 'Queentee',
     type: 'Business site',
     description:
-      'Beauty, fashion, and wellness brand site with a WhatsApp-based booking flow. Actively evolving, so this preview may lag a step behind the live version.',
-    tags: ['HTML/CSS/JS', 'WhatsApp ordering'],
+      'Beauty, fashion, and wellness brand site with appointment booking and kitchen ordering built in. Actively evolving, so this preview may lag a step behind the live version.',
+    tags: ['HTML/CSS/JS', 'Booking system'],
     image: '/media/queentee.png',
     liveUrl: 'https://queentee-abj.netlify.app',
     status: 'Live · actively updating',
