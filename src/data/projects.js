@@ -63,10 +63,10 @@ export const projects = [
     slug: 'dmayors-groove',
     name: "D'Mayors Groove",
     type: 'Restaurant site',
-    description: 'Restaurant site with a browsable online menu. Preview shown is the menu page rather than the homepage.',
+    description: 'QR-code restaurant menu: 175 items reorganized into a clean dark-lounge layout, rebuilt for real mobile scrolling.',
     tags: ['HTML/CSS/JS'],
     image: '/media/dmayors-groove.png',
-    liveUrl: null,
+    liveUrl: 'https://club-701.netlify.app',
     status: 'Live',
   },
 ];
