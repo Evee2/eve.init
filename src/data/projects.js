@@ -35,7 +35,7 @@ export const projects = [
       'Beauty, fashion, and wellness brand site with a WhatsApp-based booking flow. Actively evolving, so this preview may lag a step behind the live version.',
     tags: ['HTML/CSS/JS', 'WhatsApp ordering'],
     image: '/media/queentee.png',
-    liveUrl: 'https://queentee-ng.netlify.app/',
+    liveUrl: 'https://queentee-abj.netlify.app',
     status: 'Live · actively updating',
   },
   {
