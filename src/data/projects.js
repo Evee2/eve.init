@@ -56,7 +56,7 @@ export const projects = [
     description: 'Photography portfolio for portraits, beauty, and wedding work, built around a dark, cinematic mood.',
     tags: ['HTML/CSS/JS'],
     image: '/media/myke-visuals.png',
-    liveUrl: null,
+    liveUrl: 'https://myke-visual.netlify.app',
     status: 'Live',
   },
   {
